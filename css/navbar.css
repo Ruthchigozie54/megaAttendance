@@ -60,10 +60,19 @@
   background-color: white;
 }
 
-.register {
-  background-color: var(--secondary-color);
+.auth-buttons a {
+  padding: 8px 14px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 14px;
+  color: black;
 }
 
 .register:hover {
   background-color: white;
 }
+
+.register {
+  background-color: var(--secondary-color);
+}
+
